@@ -7,7 +7,7 @@ from numba import jit, prange
 import warnings
 warnings.filterwarnings('ignore')
 
-@numba.jit(nopython=True, parallel=True)
+@jit(nopython=True, parallel=True)
 def _process_batch_numba(data_array, start_idx, end_idx):
     """Numba-optimized batch processing"""
     result = np.zeros(end_idx - start_idx)
