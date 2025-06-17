@@ -78,7 +78,7 @@ This engine was designed to:
 
 * Speedup: **\~15x** for 1M+ data points
 * Memory usage: **60% reduction**
-* Execution time: **< 3 seconds** for 1M points
+* Execution time: **< 30 seconds** for 1M points
 
 ---
 
