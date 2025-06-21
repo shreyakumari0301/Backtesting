@@ -1,4 +1,4 @@
-# Stock Backtesting System
+# Event Driven Backtesting Engine
 
 A modular backtesting system for stock trading strategies.
 
@@ -23,11 +23,6 @@ pip install -r requirements.txt
 1. Run the backtest with default settings:
 ```bash
 python backtest.py
-```
-
-2. To use a different stock, modify the `symbol` variable in `backtest.py`:
-```python
-symbol = "AAPL"  # Change to any stock symbol
 ```
 
 ## Features
